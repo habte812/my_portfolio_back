@@ -6,6 +6,6 @@ class ProjectsSection(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
     technologies = models.JSONField()
-    colors =models.URLField(blank=True,null=True)
+    image_url =models.URLField(blank=True,null=True)
     icons =models.CharField(max_length=200)
-    githubUrl =models.URLField(blank=True,null=True)
+    github_Url =models.URLField(blank=True,null=True)
